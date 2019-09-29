@@ -12,6 +12,11 @@ npm install
 quasar dev
 ```
 
+### Start PWA App
+```bash
+quasar dev -m pwa
+```
+
 ### Lint the files
 ```bash
 npm run lint
