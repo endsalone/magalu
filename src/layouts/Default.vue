@@ -28,6 +28,7 @@ export default {
 }
 </script>
 <style>
+<<<<<<< HEAD
 @font-face {
   font-family: barlow;
   src: url(~assets/fonts/barlow-condensed-medium.otf);
@@ -40,5 +41,7 @@ export default {
   font-family: OpenSans-Regular;
   src: url(~assets/fonts/OpenSans-Regular.ttf);
 }
+=======
+>>>>>>> 4bc180916ec9dcf495b91ecee035095142b87c69
 footer{ border: 0px !important; }
 </style>
