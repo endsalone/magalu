@@ -33,6 +33,7 @@ const routes = [
     component: () => import('layouts/Default.vue'),
     children: [
       { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/campanha_acao_marketing.vue'), name: 'pet' }
+
     ]
   }
 ]
