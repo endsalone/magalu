@@ -45,10 +45,13 @@ module.exports = function (ctx) {
       components: [
         'QAvatar',
         'QBtn',
+        'QCard',
+        'QCardSection',
         'QDrawer',
         'QFooter',
         'QHeader',
         'QIcon',
+        'QImg',
         'QItem',
         'QItemSection',
         'QItemLabel',
@@ -57,9 +60,10 @@ module.exports = function (ctx) {
         'QList',
         'QPageContainer',
         'QPage',
+        'QRouteTab',
+        'QSeparator',
         'QTabs',
         'QTab',
-        'QRouteTab',
         'QToolbar',
         'QToolbarTitle'
       ],
@@ -82,7 +86,7 @@ module.exports = function (ctx) {
       // showProgress: false,
       // gzip: true,
       // analyze: true,
-      // preloadChunks: false,
+      preloadChunks: true,
       // extractCSS: false,
 
       // https://quasar.dev/quasar-cli/cli-documentation/handling-webpack
@@ -93,7 +97,8 @@ module.exports = function (ctx) {
           loader: 'eslint-loader',
           exclude: /node_modules/,
           options: {
-            formatter: require('eslint').CLIEngine.getFormatter('stylish')
+            formatter: require('eslint').CLIEngine.getFormatter('stylish'),
+            fix: true
           }
         })
       }
@@ -108,7 +113,15 @@ module.exports = function (ctx) {
 
     // animations: 'all', // --- includes all animations
     // https://quasar.dev/options/animations
-    animations: [],
+    animations: [
+      'fadeIn',
+      'fadeOut',
+      'bounceInUp',
+      'bounceOutUp',
+      'bounceOutDown',
+      'bounceOutRight',
+      'bounceOutLeft'
+    ],
 
     // https://quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {

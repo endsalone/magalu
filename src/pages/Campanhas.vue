@@ -6,7 +6,7 @@
       <p class="text-body1">Selecione uma campanha</p>
       <div class="col-10">
         <q-btn
-          size="22px"
+          size="20px"
           color="teal"
           align="left"
           class="full-width q-mt-md"
@@ -15,16 +15,17 @@
           icon-right="keyboard_arrow_right"
         />
         <q-btn
-          size="22px"
+          size="20px"
           color="teal"
           align="left"
           class="full-width q-mt-md"
           label="Vitrine Patrocinada"
           style="padding: 12px"
           icon-right="keyboard_arrow_right"
+          :to="{ name: 'vitrine' }"
         />
         <q-btn
-          size="22px"
+          size="20px"
           color="teal"
           align="left"
           class="full-width q-mt-md"
@@ -33,7 +34,7 @@
           icon-right="keyboard_arrow_right"
         />
         <q-btn
-          size="22px"
+          size="20px"
           color="teal"
           align="left"
           class="full-width q-mt-md"
@@ -52,8 +53,18 @@ export default {
 }
 </script>
 <style scoped>
+.q-btn>>>div {
+  width: 91%;
+  display: -webkit-box;
+}
+/*
 .q-btn>>>.q-icon {
-  font-size: 40px;
-  float: right;
+  margin: 0px;
+} */
+.q-focus-helper{
+  display: none !important;
+}
+a.q-btn{
+  display: block;
 }
 </style>

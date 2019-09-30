@@ -4,28 +4,29 @@ const routes = [
     path: '/campanhas',
     component: () => import('layouts/Default.vue'),
     children: [
-      { path: '', component: () => import(/* webpackChunkname: "progresso" */ 'pages/Campanhas.vue'), name: 'campanhas' }
+      { path: '', component: () => import(/* webpackChunkname: "progresso" */ 'pages/Campanhas.vue'), name: 'campanhas' },
+      { path: 'vitrine', component: () => import(/* webpackChunkname: "progresso" */ 'pages/Vitrine.vue'), name: 'vitrine' }
     ]
   },
   {
     path: '/progresso',
     component: () => import('layouts/Default.vue'),
     children: [
-      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/Progresso.vue'), name: 'progresso' }
+      { path: '', component: () => import(/* webpackChunkname: "progresso" */ 'pages/Progresso.vue'), name: 'progresso' }
     ]
   },
   {
     path: '/perfil',
     component: () => import('layouts/Default.vue'),
     children: [
-      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/Perfil.vue'), name: 'perfil' }
+      { path: '', component: () => import(/* webpackChunkname: "perfil" */ 'pages/Perfil.vue'), name: 'perfil' }
     ]
   },
   {
     path: '/campanha_embalagem',
     component: () => import('layouts/Default.vue'),
     children: [
-      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/campanha_embalagem.vue'), name: 'camapanh' }
+      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/CampanhaEmbalagem.vue'), name: 'embalagem' }
     ]
   }
 ]

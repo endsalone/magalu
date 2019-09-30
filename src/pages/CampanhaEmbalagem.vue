@@ -23,72 +23,72 @@
 </template>
 <style lang="stylus">
   p {
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
   }
   .container-padrao{
-      padding: 14px 10px;
-      margin: 0 auto;
+    padding: 14px 10px;
+    margin: 0 auto;
   }
   .sub-title{
-      color: #c3bebe;
-      font-family: barlow;
-      font-size: 18px;
+    color: #c3bebe;
+    font-family: barlow;
+    font-size: 18px;
   }
   .caixa {
-      padding: 5px;
-      border: 1px solid #d4d0d0;
-      margin: 17px auto 5px auto;
-      color: #8c8888;
-      border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #d4d0d0;
+    margin: 17px auto 5px auto;
+    color: #8c8888;
+    border-radius: 10px;
   }
   .caixa::after, .caixa::before{
-      content: '';
-      display: table;
+    content: '';
+    display: table;
   }
   .caixa::after{
-      clear: both;
+    clear: both;
   }
   .open-s {
-      font-family: OpenSans-Regular;
+    font-family: OpenSans-Regular;
   }
   .detalhes {
-      margin-top: 29px;
-      color: #bdb7b7;
-      float: right;
-      font-family: Montserrat-ExtraBold;
+    margin-top: 29px;
+    color: #bdb7b7;
+    float: right;
+    font-family: Montserrat-ExtraBold;
   }
   .faixa-esp {
-      margin: 10px 0;
+    margin: 10px 0;
   }
   .marg-center {
-      margin: 0 auto;
+    margin: 0 auto;
   }
   .img-resp{
-      max-width: 100%;
-      display: block;
+    max-width: 100%;
+    display: block;
   }
   .texto-blue{
     color: #559494;
     font-family: barlow;
     font-size: 21px;
-   }
-   .indicad {
-       color: #6557FF;
+  }
+  .indicad {
+    color: #6557FF;
      font-family: Montserrat-ExtraBold;
     font-size: 16px;
     margin: 30px auto 10px auto;
-   }
-   .indicad span {
-       float: right;
-       margin-right: 5px;
-   }
-   .expandir {
-       width 100%;
-   }
-   .exp-btn {
-       margin-top: 10px;
-   }
+  }
+  .indicad span {
+    float: right;
+    margin-right: 5px;
+  }
+  .expandir {
+    width: 100%;
+  }
+  .exp-btn {
+    margin-top: 10px;
+  }
 </style>
 <script>
 export default {

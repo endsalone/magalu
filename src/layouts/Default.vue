@@ -1,7 +1,14 @@
 <template>
   <q-layout view="hHh lpR fFf">
     <q-page-container>
-      <router-view />
+      <transition
+        enter-active-class="animated bounceInUp"
+        leave-active-class="animated bounceOutLeft"
+        appear
+        :duration="380"
+      >
+        <router-view />
+      </transition>
     </q-page-container>
     <q-footer reveal bordered class="bg-white text-white">
       <q-toolbar>
@@ -44,4 +51,5 @@ export default {
 =======
 >>>>>>> 4bc180916ec9dcf495b91ecee035095142b87c69
 footer{ border: 0px !important; }
+
 </style>
