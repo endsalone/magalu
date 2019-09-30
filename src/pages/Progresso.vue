@@ -28,7 +28,7 @@
             <div class="col-8 col-md-8">
               <div class="progr-caixa">
               <p class="title-ag cor-blue">AGILIDADE</p>
-              <p class="cor-p">Prazo de Entrega dos pedidos, Protocolos em atraso</p>
+              <p class="cor-p text-p">Prazo de Entrega dos pedidos, Protocolos em atraso</p>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@
             <div class="col-8 col-md-8">
               <div class="progr-caixa">
               <p class="title-ag cor-verde">QUALIDADE</p>
-              <p class="cor-p">CSAT: avaliação de atendimento</p>
+              <p class="cor-p text-p">CSAT: avaliação de atendimento</p>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@
             <div class="col-8 col-md-8">
               <div class="progr-caixa">
               <p class="title-ag color-red">SATISFAÇÃO</p>
-              <p class="cor-p">Quantidade de pedidos cancelados, reclamações formais (Procon, Reclame aqui).</p>
+              <p class="cor-p text-p">Quantidade de pedidos cancelados, reclamações formais (Procon, Reclame aqui).</p>
               </div>
             </div>
           </div>
@@ -106,7 +106,7 @@
             <div class="col-8 col-md-8">
               <div class="progr-caixa">
               <p class="title-ag cor-yell">EXPERIÊNCIA</p>
-              <p class="cor-p">Treinamentos que a Magalu oferece.</p>
+              <p class="cor-p text-p">Treinamentos que a Magalu oferece.</p>
               </div>
             </div>
           </div>
@@ -160,6 +160,11 @@ p {
   .title-ag {
     font-size: 17px;
     font-family: Montserrat-ExtraBold;
+  }
+  .text-p {
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #968f8f;
   }
   .cor-blue {
     color: #6557FF;
