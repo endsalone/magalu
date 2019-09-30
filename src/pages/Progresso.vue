@@ -47,7 +47,7 @@
               track-color="grey-3"
               >
               <q-avatar size="50px">
-                <img src="~/assets/perna.png">
+                <img src="~/assets/peso.png">
               </q-avatar>
               </q-circular-progress>
             </div>
@@ -73,7 +73,7 @@
               track-color="grey-3"
               >
               <q-avatar size="50px">
-                <img src="~/assets/perna.png">
+                <img src="~/assets/coracao.png">
               </q-avatar>
               </q-circular-progress>
             </div>
@@ -99,7 +99,7 @@
               track-color="grey-3"
               >
               <q-avatar size="50px">
-                <img src="~/assets/perna.png">
+                <img src="~/assets/fogo.png">
               </q-avatar>
               </q-circular-progress>
             </div>
