@@ -65,7 +65,8 @@ module.exports = function (ctx) {
         'QTabs',
         'QTab',
         'QToolbar',
-        'QToolbarTitle'
+        'QToolbarTitle',
+        'QCircularProgress'
       ],
 
       directives: [

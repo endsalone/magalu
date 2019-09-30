@@ -28,6 +28,22 @@ const routes = [
     children: [
       { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/CampanhaEmbalagem.vue'), name: 'embalagem' }
     ]
+  },
+  {
+    path: '/campanha_pet',
+    component: () => import('layouts/Default.vue'),
+    children: [
+      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/campanha_acao_marketing.vue'), name: 'pet' }
+
+    ]
+  },
+  {
+    path: '/campanha_lista',
+    component: () => import('layouts/Default.vue'),
+    children: [
+      { path: '', component: () => import(/* webpackChunkname: "index" */ 'pages/items_campanhas.vue'), name: 'lista' }
+
+    ]
   }
 ]
 
