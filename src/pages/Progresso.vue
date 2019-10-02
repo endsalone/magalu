@@ -2,7 +2,7 @@
   <q-page padding>
     <q-page>
       <div class="container-padrao">
-        <div class="equilibrio"><p>Progresso: 80</p></div>
+        <div class="equilibrio"><p>Equilíbrio: 80</p></div>
         <div class="circulo">
           <p class="valor-c">242</p>
           <p class="cred">Créditos</p>

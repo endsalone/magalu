@@ -2,12 +2,13 @@
   <q-page>
         <header class="header">
           <h1>Minhas Campanhas</h1>
+          <p class="valor-credito">Créditos: 242</p>
         </header>
       <div class="container-padrao">
         <div class="box-minhas">
           <div class="row">
             <div class="col-1 col-md-1">
-              <img class="cor-img" src="~/assets/radar.svg" alt="">
+              <img class="cor-img" src="~/assets/target.svg" alt="">
             </div>
             <div class="col-7 col-md-7">
               <p class="tile-ads">Magalu ADS</p>
@@ -25,19 +26,12 @@
                   <div class="col-4 col-md-4"><div class="seta-ads">></div></div>
                 </div>
               </li>
-              <li class="lista-ads">
-                <div class="row">
-                  <div class="col-7 col-md-7">
-                    <p>Google Cooperado</p>
-                    <p class="ads-data">02/08 a 15/08</p>
-                  </div>
-                  <div class="col-4 col-md-4"><div class="seta-ads">></div></div>
-                </div>
-              </li>
             </ul>
           </div>
           </div>
-          <div class="row"><button class="novacamp">+ nova campanha</button></div>
+          <div class="row">
+            <router-link class="novacamp" to="/campanhas">+ nova campanha</router-link>
+          </div>
         </div>
         <div class="row">
           <button class="list-btn cor-bb">Ações de Marketing</button>
@@ -48,7 +42,7 @@
     </div>
   </q-page>
 </template>
-<style lang="stylus">
+<style lang="stylus" scoped>
   h1, ul, li, p {
     margin: 0;
     padding: 0;
@@ -62,13 +56,27 @@
     display: block;
     padding: 20px 10px;
     border-radius: 0 0 46px 46px;
-    min-height: 234px;
+    min-height: 254px;
+  }
+  .cor-img{
+    height: 22px;
+  }
+  .valor-credito{
+    display: block;
+    background: #f3bf73;
+    padding: 2px 7px;
+    max-width: 209px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: Montserrat-regular;
   }
   .header h1{
     font-family: Montserrat-ExtraBold;
     font-size: 18px;
     color: #ffffff;
-    line-height: 3rem;
+    line-height: 2rem;
   }
   .box-minhas {
    display: block;
@@ -96,7 +104,7 @@
   }
   .lista-ads {
     display: block;
-    border: 1px solid #c1bbbb;
+    border: 1px dashed #c1bbbb;
     border-radius: 10px;
     padding: 7px 6px;
     margin: 5px auto;
@@ -106,7 +114,7 @@
     display: block;
     font-family: Montserrat-Regular;
     color: #565555;
-    background: #f7f7f7;
+    background: #fdfdfd;
   }
   .lista-meus-ads ul {
     display: block;
@@ -121,6 +129,7 @@
     margin: 5px auto;
     color: #a22da1;
     background: #ffffff;
+    text-decoration: none;
   }
   .list-btn{
     margin: 5px auto;

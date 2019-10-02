@@ -15,7 +15,7 @@
 
           <q-tabs align="center" class="text-teal" indicator-color="transparent" active-color="blue" v-model="tab">
             <q-route-tab name="progresso" icon="arrow_upward" label="Progresso" :to="{ name: 'progresso'}"></q-route-tab>
-            <q-route-tab name="campanhas" icon="star" label="Campanhas" :to="{ name: 'campanhas'}"></q-route-tab>
+            <q-route-tab name="campanhas" icon="star" label="Campanhas" :to="{ name: 'lista'}"></q-route-tab>
             <q-route-tab name="perfil" icon="person" label="Perfil" :to="{ name: 'perfil'}"></q-route-tab>
           </q-tabs>
 
